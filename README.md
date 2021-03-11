@@ -1,24 +1,7 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+In this sample application I show how to implement a simple cookie bar to comply with European regulations.
 
-Things you may want to cover:
+When cookies are accepted, it installs a fake Google Analytics code.
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+To test it, simply run the application as normal.
