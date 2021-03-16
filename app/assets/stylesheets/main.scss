@@ -1,5 +1,6 @@
 body {
   font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  margin: 0;
 }
 
 .cookies-bar {
@@ -7,6 +8,7 @@ body {
   bottom: 0;
 
   padding: 0px 10px 5px 10px;
+  text-align: center  ;
 
   border: 1px solid #9CA3AF;
   border-bottom: none;
@@ -34,12 +36,18 @@ body {
     display: flex;
     max-width: 700px;
     align-items: center;
+    justify-content: center;
     margin: 0 auto;
-    padding-bottom: 0;
+    padding: 5px 0;
+
+    p {
+      margin-right: 10px;
+    }
 
     .btn {
       padding: 10px 20px;
       margin-left: 10px;
+      margin-bottom: 0;
     }
   }
 }
